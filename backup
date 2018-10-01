@@ -1,0 +1,15 @@
+ <UsernameField
+          value={username}
+          handleChange={this.handleChange}
+          constraint={constraint.user}
+          />
+        <PasswordField 
+          value={password}
+          handleChange={this.handleChange}
+          constraint={constraint.password}
+          />
+        <EmailField 
+          value={email}
+          handleChange={this.handleChange}
+          constraint={constraint.email}
+          />
